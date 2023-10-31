@@ -1,0 +1,16 @@
+ALGORITHM plaindrome
+FUNCTION same(str:string) : BOOLEAN;
+ 
+VAR
+    i:INTEGER;
+BEGIN
+IF ( str[i]=1) then
+retur:= true;
+IF (str[i]= stre [i+1])then
+return :=same (str [i,i-1])
+
+ELSE
+   return:=false;
+   end if 
+
+END
